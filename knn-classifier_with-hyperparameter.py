@@ -101,7 +101,7 @@ grid.fit(trainData, trainLabels)
 print("[INFO] randomized search took {:.2f} seconds".format(
 	time.time() - start))
 acc = grid.score(testData, testLabels)
-print("[INFO] grid search accuracy: {:.2f}%".format(acc * 100))
+print("[INFO] randomized search accuracy: {:.2f}%".format(acc * 100))
 print("[INFO] randomized search best parameters: {}".format(
 	grid.best_params_))
   
